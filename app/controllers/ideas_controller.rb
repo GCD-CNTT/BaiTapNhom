@@ -10,7 +10,11 @@ class IdeasController < ApplicationController
   # GET /ideas/1
   # GET /ideas/1.json
   def show
+<<<<<<< HEAD
     @comments = @idea.comments.order(like_count: :desc).all
+=======
+    @comments = @idea.comments.all
+>>>>>>> fb6c8d8f36c0b810975a0a22fd4f42ddca7ba499
     @comment = @idea.comments.build
   end
 
