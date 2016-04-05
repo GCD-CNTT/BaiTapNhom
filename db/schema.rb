@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160405033031) do
+=======
+<<<<<<< HEAD
+ActiveRecord::Schema.define(version: 20160405023611) do
+=======
+ActiveRecord::Schema.define(version: 20160405020549) do
+>>>>>>> fb6c8d8f36c0b810975a0a22fd4f42ddca7ba499
+>>>>>>> 1c9c62bd6e1a30c7a349cc8baa196a2cfcabd486
 
   create_table "comments", force: :cascade do |t|
     t.string   "user_name"
@@ -19,9 +27,18 @@ ActiveRecord::Schema.define(version: 20160405033031) do
     t.integer  "idea_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.integer  "like_count"
     t.string   "picture"
     t.integer  "reply_id"
+=======
+<<<<<<< HEAD
+    t.integer  "like_count"
+    t.string   "picture"
+    t.integer  "reply_id"
+=======
+>>>>>>> fb6c8d8f36c0b810975a0a22fd4f42ddca7ba499
+>>>>>>> 1c9c62bd6e1a30c7a349cc8baa196a2cfcabd486
   end
 
   create_table "ideas", force: :cascade do |t|

@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 <%= form_for @comment, :html => {:multipart => true} do |f| %>
+=======
+<<<<<<< HEAD
+<%= form_for @comment, :html => {:multipart => true} do |f| %>
+=======
+<%= form_for(@comment) do |f| %>
+>>>>>>> 1c9c62bd6e1a30c7a349cc8baa196a2cfcabd486
 
+>>>>>>> fb6c8d8f36c0b810975a0a22fd4f42ddca7ba499
 <%= f.hidden_field :idea_id %>
   <% if @comment.errors.any? %>
     <div id="error_explanation">
@@ -24,8 +32,17 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c9c62bd6e1a30c7a349cc8baa196a2cfcabd486
   <div class="field">
   <%= f.label :picture %><br>
   <%= f.file_field :picture %>
 </div>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fb6c8d8f36c0b810975a0a22fd4f42ddca7ba499
+>>>>>>> 1c9c62bd6e1a30c7a349cc8baa196a2cfcabd486
 <% end %>
